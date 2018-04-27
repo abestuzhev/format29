@@ -1,0 +1,57 @@
+header .logo {
+    width: 205px;
+    height: 49px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-right: 15px;
+}
+
+header {
+    padding: 13px 0 33px;
+}
+
+header .brands {
+    float: left;
+}
+
+header .brands-item {
+    text-align: center;
+}
+header .brands-item img {
+    display: inline-block;
+}
+
+header .phones {
+    margin-top: 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin-right: 11px;
+}
+
+header .price-list {
+}
+header .price-list::before  {
+    content: '';
+    display: inline-block;
+    vertical-align: -2px;
+    width: 15px;
+    height: 13px;
+    margin-right: 3px;
+    background: url(../img/ico/price-list.png);
+}
+
+header .contacts a {
+    font-size: 13px;
+    color: #29282b;
+}
+
+header .search {
+    margin-top: -12px;
+    width: 300px;
+}
+
+.bx_breadcrumbs ul li span {
+    font-size: 16px;
+    color: #3b3370;
+    padding-left: 0;
+}
