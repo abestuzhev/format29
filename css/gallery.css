@@ -77,3 +77,20 @@
     text-align: center;
     padding: 0 10px;
 }
+
+.fancybox-opened .fancybox-title {
+    text-align: center;
+    font-size: 15px;
+}
+
+.fancybox-nav span {
+    visibility: visible;
+}
+
+.fancybox-prev span {
+    left: -60px;
+}
+
+.fancybox-next span {
+    right: -60px;
+}
